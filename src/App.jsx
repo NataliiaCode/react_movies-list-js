@@ -3,7 +3,7 @@
 import './App.scss';
 // import moviesFromServer from './api/movies.json';
 import movies from './api/movies.json';
-import MovieList from './components/MovieList';
+import { MovieList } from './components/MovieList';
 
 export const App = () => (
   <div className="page">
